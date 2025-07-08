@@ -6,17 +6,17 @@ const word = 'javascript';
 // Dichiara la funzione qui.
 
 const contaVocali = (stringa) => {
-  let numeroVocali 
+  let numeroVocali=0;
   for (i=0; i<stringa.length; i++)
-    if (stringa[i] === a)
+    if (stringa[i] === 'a')
     numeroVocali++;
-  else if (stringa[i] === e) {
+  else if (stringa[i] === 'e') {
     numeroVocali++
-  }else if (stringa[i] === u) {
+  }else if (stringa[i] === 'u') {
     numeroVocali++
-  } else if (stringa[i] === o) {
+  } else if (stringa[i] === 'o') {
     numeroVocali++
-  } else if (stringa[i] === i) {
+  } else if (stringa[i] === 'i') {
     numeroVocali++
   }
   return numeroVocali;
@@ -25,6 +25,7 @@ const contaVocali = (stringa) => {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+const result = contaVocali(word);
+console.log(result)
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
