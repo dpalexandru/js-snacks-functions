@@ -2,12 +2,13 @@
 
 const userName = 'Mario';
 
-
 // Dichiara la funzione qui.
+
+const printName = (name) => console.log(`Ciao ${name}`);
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+printName(userName);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
