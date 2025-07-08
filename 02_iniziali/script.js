@@ -5,15 +5,17 @@ const iniziali= [];
 
 // Dichiara la funzione qui.
 const soloIniziali = (nomi) => {
-  for (i=0; i<nomi.lenght; i++)[
+  for (i=0; i<nomi.length; i++) {
     let primaLettera = nomi[i].charAt(0);
     iniziali.push(primaLettera);
-  ]
+  }
 }
-
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+soloIniziali(names);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+
+console.log(`Array originale: ${names}`)
+console.log(`Solo iniziali: ${iniziali}`)
